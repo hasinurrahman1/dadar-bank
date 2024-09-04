@@ -1,0 +1,129 @@
+/* Login Page Design */
+#login-section {
+    width: 750px;
+    border: 1px solid red;
+    background-color: darkgrey;
+    margin: auto;
+    margin-top: 30px;
+
+}
+
+.login-t {
+    font-size: 35px;
+    text-align: center;
+}
+
+.input-e {
+    display: block;
+    width: 500px;
+    height: 30px;
+    margin: auto;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.input-p {
+    display: block;
+    width: 300px;
+    height: 30px;
+    margin: auto;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.log-button {
+    display: block;
+    width: 100px;
+    height: 35px;
+    margin: auto;
+    margin-bottom: 30px;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: darkorange;
+    border-radius: 7px;
+}
+
+.log-button:hover {
+    background-color: blue;
+}
+
+/* Deposit Design */
+.bank-section {
+    border: 1px solid darkgray;
+    width: 1100px;
+    margin: auto;
+    background-color: darkgray;
+}
+
+.dada-t {
+    text-align: center;
+    font-size: 40px;
+}
+
+.all {
+    background-color: crimson;
+    width: 300px;
+    height: 180px;
+}
+
+.d-t {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.h1 {
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+
+.three-div {
+    display: flex;
+    gap: 50px;
+    margin-left: 50px;
+}
+
+.d-div {
+    background-color: deeppink;
+    width: 475px;
+    height: 180px;
+}
+
+.d-text {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.d-input {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.d-button {
+    display: block;
+    width: 100px;
+    height: 35px;
+    margin: auto;
+    margin-bottom: 25px;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: darkorange;
+    border-radius: 7px;
+}
+
+.two-div {
+    display: flex;
+    gap: 50px;
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+span{
+    color: black;
+}

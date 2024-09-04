@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Bank Page</title>
+</head>
+<body>
+    <section class="bank-section">
+        <h1 class="dada-t">It is  Dadar Bank</h1>
+        <div class="three-div">
+            <div class="all">
+                <h3 class="d-t">Deposit</h3>
+                <h1 class="h1">$<span id="previous-deposit">00</span></h1>
+            </div>
+            <div class="all">
+                <h3 class="d-t">Withdraw</h3>
+                <h1 class="h1">$<span id="previous-withdraw">00</span></h1>
+            </div>
+            <div class="all">
+                <h3 class="d-t">Total Balance</h3>
+                <h1 class="h1">$<span id="total-balance">500</span></h1>
+            </div>
+        </div>
+
+        <div class="two-div">
+            <div class="d-div">
+                <h1 class="d-text">Your Deposit</h1>
+                <input type="text" name="text" id="deposit-field" class="d-input" placeholder="$ Amount you want to deposit">
+                <button id="deposit-btn" class="d-button">Deposit</button>
+            </div>
+            <div class="d-div">
+                <h1 class="d-text">Your Withdraw</h1>
+                <input type="text" name="text" id="withdraw-field" class="d-input" placeholder="$ Amount you want to Withdraw">
+                <button id="withdraw-btn" class="d-button">Withdraw</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="script/deposit.js"></script>
+    <script src="script/withdraw.js"></script>
+</body>
+</html>
